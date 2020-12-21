@@ -202,7 +202,17 @@ h2, h3, h4, h5, h6 {
     display: block;
 }
 
+#cabecalho #ferramentas #painel #servicos {
+    position: absolute;
+    top: 85px;
+    left: 65px;
+}
 
+#cabecalho #ferramentas #painel #servicos li a {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
 
 #cabecalho #ferramentas #painel #servicos li {
     font-family: "Porsche Next TT", "Century Gothic", Arial;
