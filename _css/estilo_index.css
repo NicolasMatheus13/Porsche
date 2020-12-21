@@ -202,6 +202,16 @@ h2, h3, h4, h5, h6 {
     display: block;
 }
 
+
+
+#cabecalho #ferramentas #painel #servicos li {
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 17px;
+    margin: 10px;
+    border-top: solid .1px;
+    width: 255px;
+}
+
 /* Rodapé */
 
 #regiao {
