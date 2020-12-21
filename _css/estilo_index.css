@@ -211,15 +211,16 @@ h2, h3, h4, h5, h6 {
 #cabecalho #ferramentas #painel #servicos li a {
     text-decoration: none;
     color: white;
-    line-height: 35px;
 }
 
 #cabecalho #ferramentas #painel #servicos li {
     font-family: "Porsche Next TT", "Century Gothic", Arial;
-    font-size: 17px;
+    font-size: 16px;
     margin: 10px;
     border-top: solid .1px;
     width: 255px;
+    list-style: none;
+    line-height: 35px;
 }
 
 /* Rodapé */
