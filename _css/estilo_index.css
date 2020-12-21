@@ -185,6 +185,21 @@ h2, h3, h4, h5, h6 {
     left: 23px;
     top: -11px;
     font-size: 15px;
+    z-index: 1;
+}
+
+#cabecalho #ferramentas #painel {
+    display: none;
+    width: 531.5%;
+    height: 370px;
+    position: absolute;
+    left: -1020px;
+    top: 0px;
+    background-color: rgb(42, 75, 109);
+}
+
+#cabecalho #ferramentas:hover #painel {
+    display: block;
 }
 
 /* Rodapé */
