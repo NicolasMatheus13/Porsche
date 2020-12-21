@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    color: white;    
+}
+
+/* Cabecalho */
+
+.linha {
+    border: solid;
+    border-width: .1px;
+    border-color: rgb(238, 238, 238);
+}
+.linha-1 {
+    width: 500px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    
+}
+
+.linha-2 {
+    width: 230px;
+    position: absolute;
+    top: 65px;
+    left: 750px;
+}
+
+#logo-marca .logomarca {
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    left: 660px;
+}
+
+#logo-marca h1 {
+    font-family: "911 Porscha", "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 14px;
+    position: absolute;
+    left: 625px;
+    top: 58px;
+}
+
+#menu nav ul {
+    position: absolute;
+    top: 79px;
+    left: 20px;
+    margin: 20px;
+}
+
+#menu nav ul li {
+    display: inline;
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 16px;
+    padding: 13px;
+    line-height: 0px;
+}
+
+#menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu nav ul li a:hover {
+    color: rgb(213, 0, 28);
+    transition-duration: .5s;
+}
+
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu li a {
+    display: none;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: .5px;
+    border-bottom-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-1 {
+    position: absolute;
+    left: 160px;
+    top: 23px;
+    width: 155px;
+    margin: 0;
+    background-color: white;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-1 a:hover {
+    background-color: rgb(213, 0, 28);
+    color: white;
+    transition-duration: .5s;
+}
+
+#menu nav ul li:hover .sub-menu-2 {
+    position: absolute;
+    left: 325px;
+    top: 25px;
+    width: 165px;
+    margin: 0;
+    background-color: white;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-2 a:hover {
+    background-color: rgb(213, 0, 28);
+    color: white;
+    transition-duration: .5s;
+}
+
+#menu nav ul li:hover .sub-menu-3 {
+    position: absolute;
+    left: 465px;
+    top: 25px;
+    width: 285px;
+    margin: 0;
+    background-color: white;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-3 a:hover {
+    background-color: rgb(213, 0, 28);
+    color: white;
+    transition-duration: .5s;
+}
+
+#menu nav ul li:hover .sub-menu-4 {
+    position: absolute;
+    left: 635px;
+    top: 25px;
+    width: 185px;
+    margin: 0;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-4 a:hover {
+    background-color: rgb(213, 0, 28);
+    color: white;
+    transition-duration: .5s;
+}
+
+#menu nav ul li:hover .sub-menu li a {
+    display: block;
+}
+
+#cabecalho #bloco {
+    background-color: #eff0f1;
+    opacity: 70%;
+    width: 17.3%;
+    height: 130px;
+    position: absolute;
+    left: 1020px;
+}
+
+#cabecalho #ferramentas {
+    background-color: rgb(42, 75, 109);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 130px;
+}
+
+#cabecalho #ferramentas h4 {
+    position: absolute;
+    left: 23px;
+    top: -11px;
+    font-size: 15px;
+}
+
+/* Rodapé */
+
+#regiao {
+    background-color: #191f22;
+    width: 100%;
+    height: 365px;
+    position: absolute;
+    top: 600px;
+}
+
+h3 {
+    color: #fff;
+    font-family: Arial;
+    font-size: 22px;
+    position: absolute;
+    left: 100px;
+    border-width: 10px;
+}
+
+.linha-3 {
+    width: 1150px;
+    position: absolute;
+    top: 145px;
+    left: 100px;
+}
+
+#regiao p {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    color: #fff;
+}
