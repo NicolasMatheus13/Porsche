@@ -208,6 +208,11 @@ h2, h3, h4, h5, h6 {
     left: 65px;
 }
 
+#cabecalho #ferramentas #painel #servicos li:hover {
+    background-color: rgba(255, 255, 255, 0.425);
+    transition-duration: .5s;
+}
+
 #cabecalho #ferramentas #painel #servicos li a {
     text-decoration: none;
     color: white;
@@ -216,12 +221,78 @@ h2, h3, h4, h5, h6 {
 #cabecalho #ferramentas #painel #servicos li {
     font-family: "Porsche Next TT", "Century Gothic", Arial;
     font-size: 16px;
-    margin: 10px;
-    border-top: solid .1px;
+    height: 45px;
+    border-top: solid .01px;
     width: 255px;
     list-style: none;
     line-height: 35px;
+    border-color:  rgb(121, 121, 121);
 }
+
+#cabecalho #ferramentas #painel #contatos {
+    position: absolute;
+    top: 85px;
+    left: 345px;
+}
+
+#cabecalho #ferramentas #painel #contatos li:hover {
+    background-color: rgba(255, 255, 255, 0.425);
+    transition-duration: .5s;
+}
+
+#cabecalho #ferramentas #painel #contatos li a {
+    text-decoration: none;
+    color: white;
+}
+
+#cabecalho #ferramentas #painel #contatos li {
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 16px;
+    height: 45px;
+    border-top: solid .01px;
+    width: 255px;
+    list-style: none;
+    line-height: 35px;
+    border-color:  rgb(121, 121, 121);
+}
+
+#cabecalho #ferramentas #painel h3 {
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 20px;
+    position: absolute;
+    left: 935px;
+    top: 35px;
+}
+
+#cabecalho #ferramentas #painel #mais {
+    position: absolute;
+    top: 85px;
+    left: 890px;
+}
+
+#cabecalho #ferramentas #painel #mais li:hover {
+    background-color: rgba(255, 255, 255, 0.425);
+    transition-duration: .5s;
+}
+
+#cabecalho #ferramentas #painel #mais li a {
+    text-decoration: none;
+    color: white;
+}
+
+#cabecalho #ferramentas #painel #mais li {
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+    font-size: 16px;
+    height: 45px;
+    border-top: solid .01px;
+    width: 255px;
+    list-style: none;
+    line-height: 35px;
+    border-color:  rgb(121, 121, 121);
+}
+
+
+
 
 /* Rodapé */
 
