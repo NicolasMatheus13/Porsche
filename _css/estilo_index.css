@@ -185,6 +185,12 @@ h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+#cabecalho #carConfigurator p a .seta { 
+    position: absolute;
+    left: 171px;
+    top: 5px;
+}
+
 #cabecalho #carConfigurator p a:hover {
     color:rgb(213, 0, 28);
     transition-duration: .5s;
@@ -228,6 +234,47 @@ h2, h3, h4, h5, h6 {
     left: 65px;
 }
 
+#cabecalho #ferramentas #painel #servicos li .seta-1 {
+    position: absolute;
+    left: 265px;
+    top: 15px;
+    color: white;
+ }
+
+ #cabecalho #ferramentas #painel #servicos li .seta-2 {
+    position: absolute;
+    left: 265px;
+    top: 60px;
+    color: white;
+ }
+
+ #cabecalho #ferramentas #painel #servicos li .seta-3 {
+    position: absolute;
+    left: 265px;
+    top: 105px;
+    color: white;
+ }
+
+ #cabecalho #ferramentas #painel #servicos li .seta-4 {
+    position: absolute;
+    left: 265px;
+    top: 150px;
+    color: white;
+ }
+
+ #cabecalho #ferramentas #painel #contatos li .seta-5 {
+    position: absolute;
+    left: 270px;
+    top: 15px;
+    color: white;
+ }
+
+ #cabecalho #ferramentas #painel #mais li .seta-6 {
+    position: absolute;
+    left: 280px;
+    top: 15px;
+    color: white;
+ }
 #cabecalho #ferramentas #painel #servicos li:hover {
     background-color: rgba(255, 255, 255, 0.425);
     transition-duration: .5s;
