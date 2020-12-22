@@ -75,6 +75,7 @@ h2, h3, h4, h5, h6 {
 .sub-menu {
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 .sub-menu li a {
@@ -165,37 +166,55 @@ h2, h3, h4, h5, h6 {
 
 #cabecalho #bloco {
     background-color: #eff0f1;
-    opacity: 70%;
     width: 17.3%;
     height: 130px;
     position: absolute;
     left: 1020px;
+    z-index: 1;
+}
+
+#cabecalho #carConfigurator p {
+    position: absolute;
+    top: 80px;
+    left: 21px;
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+}
+
+#cabecalho #carConfigurator p a {
+    color:rgb(59, 127, 167);
+    text-decoration: none;
+}
+
+#cabecalho #carConfigurator p a:hover {
+    color:rgb(213, 0, 28);
+    transition-duration: .5s;
 }
 
 #cabecalho #ferramentas {
-    background-color: rgb(42, 75, 109);
+    background-color: rgb(42, 75, 109);    
     width: 100%;
     height: 40px;
     position: absolute;
     top: 130px;
 }
 
-#cabecalho #ferramentas h4 {
+#cabecalho #ferramentas p {
     position: absolute;
     left: 23px;
-    top: -11px;
+    top: -6px;
     font-size: 15px;
-    z-index: 1;
+    color: white;
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
 }
 
 #cabecalho #ferramentas #painel {
     display: none;
-    width: 531.5%;
+    width: 536.8%;
     height: 370px;
     position: absolute;
     left: -1020px;
     top: 0px;
-    background-color: rgb(42, 75, 109);
+    background-color: rgb(42, 75, 109);    
 }
 
 #cabecalho #ferramentas:hover #painel {
@@ -256,7 +275,7 @@ h2, h3, h4, h5, h6 {
     border-color:  rgb(121, 121, 121);
 }
 
-#cabecalho #ferramentas #painel h3 {
+#cabecalho #ferramentas #painel p {
     font-family: "Porsche Next TT", "Century Gothic", Arial;
     font-size: 20px;
     position: absolute;
@@ -289,6 +308,14 @@ h2, h3, h4, h5, h6 {
     list-style: none;
     line-height: 35px;
     border-color:  rgb(121, 121, 121);
+}
+
+#cabecalho #banner {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
 }
 
 
