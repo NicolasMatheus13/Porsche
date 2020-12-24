@@ -81,27 +81,47 @@ h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     z-index: 1;
-    position: absolute;
 }
 
 .sub-menu li a {
-    display: none;
+    display: none;   
     text-align: center;
     height: 45px;
     line-height: 45px;
+    border-bottom-style: solid;
+    border-width: .1px;
+    border-color: rgb(228, 228, 228);
 }
 
 #menu nav ul li:hover .sub-menu li a {
     display: block;
 }
 
+#menu nav ul li .sub-menu-0 {
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+
 #menu nav ul li:hover .sub-menu-0 {
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 31px;
     width: 190px;
     margin: 0;
+    width: 322px;
+    height: 610px;
     background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(228, 228, 228);
+}
+
+#menu nav ul li:hover .sub-menu-0 li a { 
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 20px;
 }
 
 #menu nav ul li:hover .sub-menu-0 a:hover {
@@ -110,10 +130,59 @@ h2, h3, h4, h5, h6 {
     transition-duration: .5s;
 }
 
+#menu nav ul li:hover .sub-menu-0 a .carro-1 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 8px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .carro-2 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 95px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .carro-3 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 185px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .carro-4 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 265px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .carro-5 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 350px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .carro-6 {
+    width: 110px;
+    position: absolute;
+    left: 178px;
+    top: 430px;
+}
+
+#menu nav ul li .sub-menu-1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
 #menu nav ul li:hover .sub-menu-1 {
+    margin: 0;
     position: absolute;
     left: 160px;
-    top: 30px;
+    top: 31px;
     width: 160px;
     margin: 0;
     background-color: white;
@@ -128,10 +197,16 @@ h2, h3, h4, h5, h6 {
     transition-duration: .5s;
 }
 
+#menu nav ul li .sub-menu-2 {
+    position: absolute;
+    top: 50px;
+    left: 260px;
+}
+
 #menu nav ul li:hover .sub-menu-2 {
     position: absolute;
     left: 315px;
-    top: 30px;
+    top: 31px;
     width: 190px;
     margin: 0;
     background-color: white;
@@ -146,10 +221,16 @@ h2, h3, h4, h5, h6 {
     transition-duration: .5s;
 }
 
+#menu nav ul li .sub-menu-3 {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
 #menu nav ul li:hover .sub-menu-3 {
     position: absolute;
     left: 465px;
-    top: 30px;
+    top: 31px;
     width: 285px;
     margin: 0;
     background-color: white;
@@ -164,10 +245,16 @@ h2, h3, h4, h5, h6 {
     transition-duration: .5s;
 }
 
+#menu nav ul li .sub-menu-4 {
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+
 #menu nav ul li:hover .sub-menu-4 {
     position: absolute;
     left: 635px;
-    top: 30px;
+    top: 31px;
     width: 185px;
     margin: 0;
     background-color: white;
