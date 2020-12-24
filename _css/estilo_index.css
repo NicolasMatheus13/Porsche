@@ -100,7 +100,7 @@ h2, h3, h4, h5, h6 {
 #menu nav ul li .sub-menu-0 {
     position: absolute;
     top: 50px;
-    left: -10px;
+    left: -60px;
 }
 
 #menu nav ul li:hover .sub-menu-0 {
@@ -135,6 +135,48 @@ h2, h3, h4, h5, h6 {
     position: absolute;
     left: 178px;
     top: 8px;
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-8 {
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    color: rgb(75, 75, 75);
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-9 {
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    color: rgb(75, 75, 75);
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-10 {
+    position: absolute;
+    top: 215px;
+    left: 300px;
+    color: rgb(75, 75, 75);
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-11 {
+    position: absolute;
+    top: 295px;
+    left: 300px;
+    color: rgb(75, 75, 75);
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-12 {
+    position: absolute;
+    top: 375px;
+    left: 300px;
+    color: rgb(75, 75, 75);
+}
+
+#menu nav ul li:hover .sub-menu-0 a .seta-13 {
+    position: absolute;
+    top: 455px;
+    left: 300px;
+    color: rgb(75, 75, 75);
 }
 
 #menu nav ul li:hover .sub-menu-0 a .carro-2 {
@@ -175,7 +217,7 @@ h2, h3, h4, h5, h6 {
 #menu nav ul li .sub-menu-1 {
     position: absolute;
     top: 50px;
-    left: 100px;
+    left: 220px;
 }
 
 #menu nav ul li:hover .sub-menu-1 {
@@ -200,7 +242,7 @@ h2, h3, h4, h5, h6 {
 #menu nav ul li .sub-menu-2 {
     position: absolute;
     top: 50px;
-    left: 260px;
+    left: 360px;
 }
 
 #menu nav ul li:hover .sub-menu-2 {
@@ -224,7 +266,7 @@ h2, h3, h4, h5, h6 {
 #menu nav ul li .sub-menu-3 {
     position: absolute;
     top: 50px;
-    left: 450px;
+    left: 650px;
 }
 
 #menu nav ul li:hover .sub-menu-3 {
@@ -248,7 +290,7 @@ h2, h3, h4, h5, h6 {
 #menu nav ul li .sub-menu-4 {
     position: absolute;
     top: 50px;
-    left: 750px;
+    left: 850px;
 }
 
 #menu nav ul li:hover .sub-menu-4 {
