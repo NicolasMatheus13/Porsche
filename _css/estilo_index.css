@@ -590,6 +590,14 @@ h2, h3, h4, h5, h6 {
     height: 450px;
     position: absolute;
     top: 2550px;
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
+}
+
+#parte-1 .lista-1 {
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    font-family: "Porsche Next TT", "Century Gothic", Arial;
 }
 
 #parte-2 {
